@@ -55,12 +55,16 @@ font-family: 'Dosis', sans-serif;
     font-weight: 700;
     color: white;
 }
-@media (max-width:576px){
+@media (max-width: 576px){
     *{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0px;
     /* font-size: 20px; */
     /* font-size: 27px !important; */
+}
+
+div {
+    padding-bottom: 0px;
 }
 
 a.btn.btn-danger.nutaction.nutaction5 {
@@ -71,7 +75,9 @@ a.btn.btn-danger.nutaction.nutaction5 {
     /* background-position: center; */
 }
 
-h2.tdto {}
+h2.tdto {
+    /* padding-bottom: 43px; */
+}
 
 a.btn.btn-danger.nutaction {
     font-size: 0.4rem;
